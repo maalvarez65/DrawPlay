@@ -1,0 +1,54 @@
+//Authors: Michael Alvarez & Chris Wilhoite
+commit db12fa0dae1ca206580fdfb9c683452eccfaadd8
+Author: Michael Alvarez <maalvarez@mymail.mines.edu>
+Date:   Thu Feb 18 19:31:34 2021 -0700
+
+    Added arms and changed message to reflect new image
+
+commit f2304d3bb44b5f3158a1b13a867131cdf8f1f99f
+Author: Michael Alvarez <maalvarez@mymail.mines.edu>
+Date:   Thu Feb 18 19:23:20 2021 -0700
+
+    Added Bowtie/Feet and made ears red
+
+commit f7ee1a8382d2c771c27a57bfa98128da265f0e38
+Author: Michael Alvarez <maalvarez@mymail.mines.edu>
+Date:   Thu Feb 18 19:08:48 2021 -0700
+
+    Added Pink Ears
+
+commit 8eececfb10825f4ddad66e3a25ea37558728236d
+Author: Chris Wilhoite <chriswilhoite18@icloud.com>
+Date:   Thu Feb 18 18:51:08 2021 -0700
+
+    Decided to add 'WOOF!' and take out '>.<'
+
+commit 75a706b307b0eda26724b63fbffcb0bae8553d1e
+Author: Chris Wilhoite <chriswilhoite18@icloud.com>
+Date:   Thu Feb 18 18:45:33 2021 -0700
+
+    Modified the mouth size (made it less wide and taller), made the eyes smaller and more narrow, changed the skin of the cat to pink and it's mouth to black, increased the size of the head to 200, shifted the head by 25 to the right (makes the cat look like it's looking left) and finally edited the text under the cat to say 'I'm a naked mole-cat >.<'
+
+commit dc00c2d5ac8fc64fa1003ab7a9ac822265c84cd9
+Author: Chris Wilhoite <chriswilhoite18@icloud.com>
+Date:   Thu Feb 18 18:28:14 2021 -0700
+
+    Enlarged the size of the cat's head to 200px
+
+commit 1beafd612fb34c901f75fbbcd77e92f595172c91
+Author: Chris Wilhoite <chriswilhoite18@icloud.com>
+Date:   Thu Feb 18 18:16:06 2021 -0700
+
+    Cat eyes modified
+
+commit f96eaab84c54c668791d2574a9db51f0ec0171a8
+Author: Michael Alvarez <maalvarez@mymail.mines.edu>
+Date:   Thu Feb 18 17:57:01 2021 -0700
+
+    Initial Commit
+
+commit 6ac6b3f0896360d7dd8613f5867f482522f9066b
+Author: maalvarez65 <42808823+maalvarez65@users.noreply.github.com>
+Date:   Thu Feb 18 17:47:50 2021 -0700
+
+    Initial commit

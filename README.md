@@ -1,2 +1,4 @@
 # DrawPlay
-CSCI306 GitHub Practice
+Authors: Michael Alvarez & Chris Wilhoite
+||Section: A
+||Project C11A-DrawPlay
