@@ -20,27 +20,36 @@ public class Cat {
 	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
 	private static final int MOUTH_Y = HEAD_DIMENSION/5 * 3;
 	// ear dimensions
-	private static final int EAR_Y = HEAD_DIMENSION/3;
 	private static final int EAR_X = HEAD_DIMENSION/3;
 	private static final int EAR_SEPARATION = HEAD_DIMENSION/2;
-	// pick eye dimensions
+	// pick ear dimensions
 	private static final int EAR_HEIGHT = 100;
 	private static final int EAR_WIDTH = 20;
-	
+	// Foot dimensions
+	private static final int FOOT_Y = HEAD_DIMENSION*4/5;
+	private static final int FOOT_X = HEAD_DIMENSION/20;
+	private static final int FOOT_SEPARATION = HEAD_DIMENSION/2;
+	// pick foot dimensions
+	private static final int FOOT_HEIGHT = 50;
+	private static final int FOOT_WIDTH = 100;
+
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
 	{
 		Graphics2D g2 = (Graphics2D) g;
 		int x=catX + 25;
 		int y=catY;
-		// Draw the head
-		g2.setColor(Color.pink);
-		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
+		//Draw ears
+		g2.setColor(Color.red);
 		x = catX + EAR_X; 
-		//y = catY + EAR_Y;
 		g2.fillOval(x, y, EAR_WIDTH, EAR_HEIGHT);
 		x += EAR_SEPARATION;
 		g2.fillOval(x, y, EAR_WIDTH, EAR_HEIGHT);
+		// Draw the head
+		x = catX + 25;
+		y = catY;
+		g2.setColor(Color.pink);
+		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.green);
 		x = catX + EYE_X; 
@@ -48,6 +57,13 @@ public class Cat {
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
 		x += EYE_SEPARATION;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
+		// Draw the feet
+		g2.setColor(Color.red);
+		x = catX - FOOT_X; 
+		y = catY + FOOT_Y;
+		g2.fillOval(x, y, FOOT_WIDTH, FOOT_HEIGHT);
+		x += FOOT_SEPARATION;
+		g2.fillOval(x, y, FOOT_WIDTH, FOOT_HEIGHT);
 		// Draw the mouth
 		g2.setColor(Color.black);
 		x = catX + MOUTH_X - 5;
