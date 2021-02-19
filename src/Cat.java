@@ -32,6 +32,12 @@ public class Cat {
 	// pick foot dimensions
 	private static final int FOOT_HEIGHT = 50;
 	private static final int FOOT_WIDTH = 100;
+	// Foot dimensions
+	private static final int ARM_X = HEAD_DIMENSION/10;
+	private static final int ARM_SEPARATION = HEAD_DIMENSION;
+	// pick foot dimensions
+	private static final int ARM_HEIGHT = 100;
+	private static final int ARM_WIDTH = 10;
 
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
@@ -45,6 +51,12 @@ public class Cat {
 		g2.fillOval(x, y, EAR_WIDTH, EAR_HEIGHT);
 		x += EAR_SEPARATION;
 		g2.fillOval(x, y, EAR_WIDTH, EAR_HEIGHT);
+		//Draw arms
+		g2.setColor(Color.black);
+		x = catX + ARM_X; 
+		g2.fillOval(x, y, ARM_WIDTH, ARM_HEIGHT);
+		x += ARM_SEPARATION;
+		g2.fillOval(x, y, ARM_WIDTH, ARM_HEIGHT);
 		// Draw the head
 		x = catX + 25;
 		y = catY;
@@ -72,6 +84,6 @@ public class Cat {
 		g2.setColor(Color.black);
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
-		g2.drawString("WOOF! I'm a naked mole-cat", catX + 50, catY+HEAD_DIMENSION + 50);	
+		g2.drawString("<Insert Kirby suck sound> I'm Kirby", catX + 50, catY+HEAD_DIMENSION + 50);	
 	}
 }
