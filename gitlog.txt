@@ -1,4 +1,6 @@
 //Authors: Michael Alvarez & Chris Wilhoite
+//Project: C11A-1 Git on Github
+//Section: A
 commit db12fa0dae1ca206580fdfb9c683452eccfaadd8
 Author: Michael Alvarez <maalvarez@mymail.mines.edu>
 Date:   Thu Feb 18 19:31:34 2021 -0700
